@@ -1,0 +1,131 @@
+.page{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper{
+    width: 1200px;
+    margin:0 auto;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.column{
+    width: 35%;
+    height: 100%;
+    background-color: slategray;
+}
+.header_avatar{
+    margin: 0%;
+    padding: 0px 50px;
+}
+.header_picture{
+    height: 300px;
+    width: 90%;
+    ;
+
+}
+.main_title{
+    width: 65%;
+    height: 100%;
+    background-color: dimgrey;
+    padding: 0px 50px;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: black;
+}
+.nav_link{
+    color: black;
+}
+
+.header_title{
+    margin: 0;
+    text-align: left;
+    padding-top: 100px;
+    border-bottom: solid black;
+}
+.subtitle_title{
+    margin: 0;
+    text-align: left;
+}
+.contact_link{
+    color: black;
+}
+.main_information{
+background-color: dimgray;
+padding: 0px 50px;
+}
+
+
+.main{
+  width: 100%;
+  display: flex;  
+}
+.column_main{
+    width: 35%;
+    position: relative;;
+    background-color: slategray;
+}
+.column_contact{
+    padding: 0px 50px;
+}
+.column_education{
+    padding: 0px 50px;
+}
+.column_languages{
+    padding:0px 50px;
+}
+.main_information{
+    width: 65%;
+    background-color: dimgray;
+}
+.code_example{
+    background-color: bisque;
+}
+.languages_li{
+    margin-bottom:10px;
+}
+.languages_margin{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footer{
+    background-color:antiquewhite;
+}
+.footer_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.git_link{
+    background-image:url(https://avatars.githubusercontent.com/u/106678558?s=400&u=63a1eaa50c606a0d94a1bca4c9a8537a63fe7e52&v=4);
+    background-position-x:left;
+    background-position-y:center ;
+    background-size: cover;
+
+    
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.course_img{
+    width: 100;
+    height: 25px;
+}
+.footer_part{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.year{
+    padding-left: 10px;
+}
+.contact_link#course{
+    padding-left: 10px;
+}
+
+
